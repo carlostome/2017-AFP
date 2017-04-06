@@ -1,0 +1,41 @@
+Because there are not fixed percentages to each exercise I will assign 1/4 to
+each.
+
+I did a small mistake, I misread and did 2.4.2 to 2.4.4 instead of 2.4.1 to
+2.4.3.
+
+2.2.1 Tail recursion:
+
+- Perfect.
+
+25/25
+
+2.2.3 Fix:
+
+- Perfect.
+
+25/25
+
+2.4.2 - 2.4.4 Nested types
+  - 2.4.2: Perfect.
+  - 2.4.3: Well done, however, I'm not sure about whether in the type of mapCons
+
+              mapCons :: (forall x y. (x -> y) -> t x -> t y)
+                      -> (a -> b) -> Cons t a -> Cons t b
+
+           the function passed as an argument should be as polymorphic as this
+           or with the quantification over x is enough.
+
+- 2.4.4: Perfect.
+
+25/25
+
+2.5.3 Evidence translation
+
+- Perfect, by doing this exercise one gets to really appreciate the
+  powerfulness and simplicity of Haskell type class system.
+
+25/25
+
+Total 10
+

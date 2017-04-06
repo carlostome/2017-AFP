@@ -1,0 +1,37 @@
+Because there are not fixed percentages to each exercise I will assign 1/4 to
+each.
+
+2.2.1 Tail recursion:
+
+- Perfect, I like the use of continuations in this style to solve the
+exercise.
+
+25/25
+
+2.2.3 Fix:
+
+- Perfect
+
+25/25
+
+2.4.1 - 2.4.3 Nested types
+  - 2.4.1: Perfect.
+  - 2.4.2: Perfect.
+  - 2.4.3: Well done,however, I'm not sure about whether in the type of mapCons
+
+              mapCons :: (forall x. (x -> b) -> t x -> t b)
+                      -> (a -> b) -> Cons t a -> Cons t b
+
+           the function passed as an argument is enoughly polymorphic (b is not
+           locally universally quantified). But I guess is ok as this version
+           works just fine.
+
+25/25
+
+2.5.3 Evidence translation
+
+- This exercise is not done.
+
+0/25
+
+Total 7.5
