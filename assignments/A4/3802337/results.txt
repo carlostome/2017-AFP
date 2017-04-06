@@ -1,0 +1,53 @@
+2.10.5-2.10.7 (10%) Unsafe I/O
+
+- Perfect
+
+10/10
+
+2.2.4 (15%) Tries
+
+- The valid function is not correct as the following Trie shouldn't be valid
+	but it returns true.
+
+	import qualified Data.Map as M
+
+	trie1 = Node Nothing $ M.fromList [('a', Node Nothing M.empty)]
+
+	assert (valid trie1 == True) -- this should be false
+
+	I think this could have been spoted if the testsuite included some cases
+	where the trie wasn't valid.
+
+	Anyway the testsuite is appreciated.
+
+12/15
+
+2.11.2 (25%) Generics
+
+- This exercise is not done.
+
+0/25
+
+2.2.6 (25%) Partiality monad
+
+- Perfect
+
+25/25
+
+ 2.6.1 (25%) Contracts
+
+This exercise consists of 7 tasks so I grade them each with 1/7 * 25:
+
+  - Task 1: Good
+  - Task 2: Good
+  - Task 3: Good
+  - Task 4: Good
+  - Task 5: Good
+  - Task 6: Good, but it is also worth mentioning that they do not `behave`
+            the same under the presence of undefined values.
+  - Task 7: The example is good but the explanation of why does this happens
+            is not there.
+
+22/25
+
+Total 6.9

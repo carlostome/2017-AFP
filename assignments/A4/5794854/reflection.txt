@@ -1,0 +1,47 @@
+2.10.5-2.10.7 (10%) Unsafe I/O
+
+- Perfect, I even manage to find something concrete that makes ghci crash.
+
+10/10
+
+2.2.4 (15%) Tries
+
+- All works correctly, I implemented a quickcheck test suite that generates
+a list of random calls to insert and delete and it checks that the validity of
+the Trie is preserved.
+
+15/15
+
+2.11.2 (25%) Generics
+
+- Good, I implemented what it was required and included some tests to check that
+the behaviour is similar to the one provided by the default Read instance.
+However, the implmentation in general is for very basic datatypes and doesn't work
+with records, infix constructors etc.
+
+25/25
+
+2.2.6 (25%) Partiality monad
+
+- Perfect
+
+25/25
+
+2.6.1 (25%) Contracts
+
+  - Task 1: Good
+  - Task 2: Good
+  - Task 3: Good
+  - Task 4: Good
+  - Task 5: Good
+  - Task 6: Good explanation using equational reasoning to understand why the
+            functions are not equivalent. However, I didn't mention that (It is obvious) 
+            that they do no behave the same because preservesPos with a precondition
+            that is false and a postcondition that is false will return true and preservesPos'
+            will not because the precondition is already false.
+  - Task 7: Good, I used again equationall reasoning to understand and explain why and how
+            the differents are more appearant under different conditions.
+
+25/25
+
+Total 10
